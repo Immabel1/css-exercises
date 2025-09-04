@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+/*shared styles for both elements*/
+.element-one,
+.element-two {
+    font-size:28px
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* Unique style for the first element */
+.element-one {
+  background-color: black;
+  color: white;
+}
+
+/* Unique style for the second element */
+.element-two {
+  background-color: yellow;
+}
